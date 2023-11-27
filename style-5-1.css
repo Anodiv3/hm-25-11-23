@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+section {
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.4em;
+    color: rgb(173, 112, 190);
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 300px;
+    border: 1px solid rgba(222, 181, 233, 0.6);
+    border-radius: 5px;
+}
+
+fieldset > input {
+    width: 480px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(222, 181, 233, 0.6);
+    padding: 0 10px 0 10px;
+}
+
+input::placeholder {
+    color: rgba(142, 125, 170, 0.8);
+    font-size: 1.2em;
+}
+
+input:hover {
+    background-color: rgb(255, 233, 238);
+}
+
+input:focus,
+input:active {
+    outline: 2px dashed rgba(222, 181, 233, 0.6);
+    background-color: rgb(253, 215, 225);
+}
+
+
+label {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(202, 150, 223);
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.icons {
+    line-height: 50px;
+    color: white;
+}
+
+button {
+    display: inline-block;
+    width: 555px;
+    height: 40px;
+    background-color: rgb(202, 150, 223);
+    border: 1px solid rgba(222, 181, 233, 0.6);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+    margin: 10px 0 10px 0;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button:focus,
+button:active {
+    background-color: rgb(139, 112, 150);
+    border: 4px dashed rgba(179, 133, 197, 0.562);
+}
